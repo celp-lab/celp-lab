@@ -20,11 +20,13 @@ listing:
 format:
   html: 
     fontsize: 1.1em
+    include-after-body: year_divider.html
+    css: year_divider.css
 ---
 
 :::{#articles}  
 :::
 
 <button class="btn btn-secondary btn-sm">
-{{< fa brands superpowers >}} [Made with bibtex_2_website_qmds](https://jebyrnes.github.io/bibtex_2_website_qmds/){style="color:white; size:0.8em;"}
+{{< fa brands superpowers >}} [Made with bibtex_2_website_qmds](https://jebyrnes.github.io/bibtex_2_website_qmds/){style="color:white; font-size:0.8em;"}
 </button>

@@ -1,0 +1,54 @@
+<script>
+window.addEventListener("load", () => {
+  const init = () => {
+    const list = document.querySelector("ul.pub-list") ||
+                 document.querySelector("#articles ul.list") ||
+                 document.querySelector("#articles .list");
+    if (!list) {
+      console.log("[year-dividers] list not found");
+      return;
+    }
+
+    const getItems = () =>
+      [...list.children].filter(el => el.tagName === "LI" && !el.classList.contains("year-divider"));
+
+    const yearOf = li => {
+      const el = li.querySelector(".listing-year");
+      return el ? el.textContent.replace(/[()\s]/g, "") : "";
+    };
+
+    let observer;
+
+    function update() {
+      observer.disconnect();
+      list.querySelectorAll(".year-divider").forEach(el => el.remove());
+
+      const items = getItems();
+      const years = items.map(yearOf);
+      const distinct = new Set(years).size;
+      const changes = years.filter((y, i) => i === 0 || y !== years[i - 1]).length;
+      console.log("[year-dividers]", { items: items.length, distinct, changes });
+
+      if (items.length && changes === distinct) {
+        let prev = null;
+        items.forEach((li, i) => {
+          if (years[i] !== prev) {
+            const divider = document.createElement("li");
+            divider.className = "year-divider";
+            divider.innerHTML = `<h2>${years[i]}</h2>`;
+            list.insertBefore(divider, li);
+            prev = years[i];
+          }
+        });
+      }
+      observer.observe(list, { childList: true });
+    }
+
+    observer = new MutationObserver(update);
+    update();
+  };
+
+  // give list.js a moment to finish its own setup
+  setTimeout(init, 300);
+});
+</script>
