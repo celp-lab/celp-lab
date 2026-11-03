@@ -207,14 +207,14 @@
     "href": "undergrad_resources.html",
     "title": "Resources for Undergrads",
     "section": "",
-    "text": "Interested in joining our lab as an undergrad at UMass Boston? Drop Jarrett an email to schedule an appointment to talk about it. Typically, students become involved in the lab either as a paid research assistant or by taking a semester independent study to provide credits for research."
+    "text": "UMass Boston students - do you have questions about what courses you should take? Check out this excellent guide for what is offered semester by semester from Albert Kao."
   },
   {
     "objectID": "undergrad_resources.html#joining-the-lab",
     "href": "undergrad_resources.html#joining-the-lab",
     "title": "Resources for Undergrads",
-    "section": "",
-    "text": "Interested in joining our lab as an undergrad at UMass Boston? Drop Jarrett an email to schedule an appointment to talk about it. Typically, students become involved in the lab either as a paid research assistant or by taking a semester independent study to provide credits for research."
+    "section": "Joining the Lab",
+    "text": "Joining the Lab\nInterested in joining our lab as an undergrad at UMass Boston? Drop Jarrett an email to schedule an appointment to talk about it. Typically, students become involved in the lab either as a paid research assistant or by taking a semester independent study to provide credits for research."
   },
   {
     "objectID": "undergrad_resources.html#finding-a-job-after-graduating",
@@ -320,5 +320,12 @@
     "title": "Comparative Assessment of Deep Learning Architectures for Underwater Subsurface Kelp Forest Segmentation with The Kelp-o-Tron",
     "section": "",
     "text": "Representative underwater kelp images and corresponding ground-truth segmentation masks illustrating different levels of kelp cover: (a) high, (b) moderate, (c) low, and (d) very low. For each example, the upper panel shows the original RGB image, and the lower panel shows the corresponding SSeg-assisted annotated ground-truth mask, with kelp regions highlighted in pink. Note that in the very low kelp cover, the image is dominated by seagrass, which is not labeled."
+  },
+  {
+    "objectID": "undergrad_resources.html#finding-courses",
+    "href": "undergrad_resources.html#finding-courses",
+    "title": "Resources for Undergrads",
+    "section": "",
+    "text": "UMass Boston students - do you have questions about what courses you should take? Check out this excellent guide for what is offered semester by semester from Albert Kao."
   }
 ]

@@ -1,6 +1,9 @@
 ---
 title: "Resources for Undergrads"
 ---
+## Finding Courses
+UMass Boston students - do you have questions about what courses you should take? Check out [this excellent guide](https://thekaolab.github.io/UMB_biology_courseGuide/) for what is offered semester by semester from Albert Kao.  
+
 
 ## Joining the Lab
 Interested in joining our lab as an undergrad at UMass Boston? Drop [Jarrett an email](mailto:jarrett.byrnes@umb.edu) to schedule an appointment to talk about it. Typically, students become involved in the lab either as a paid research assistant or by taking a semester independent study to provide credits for research.
