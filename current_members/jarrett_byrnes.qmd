@@ -10,7 +10,7 @@ categories:
 
 
 **Info**  
-Curriculum Vitae: <a href="http://byrneslab.net/wp-content/uploads/2023/08/Byrnes_CV.pdf">pdf</a>  
+Curriculum Vitae: [pdf](/cvs/Byrnes_CV.pdf)  
 Email: <a href="mailto:jarrett.byrnes@umb.edu">jarrett.byrnes@umb.edu</a>  
 Bluesky: <a href="https://bsky.app/profile/jebyrnes.bsky.social">@jebyrnes.bsky.social</a>  
 Blog: <a href="http://imachordata.com">I'm a chordata! Urochordata!</a>  
